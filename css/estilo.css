@@ -1,0 +1,129 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+/* Tarjeta de perfil */
+.card-custom {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.foto-perfil {
+  max-width: 250px;
+  border-radius: 10px;
+  border: 3px solid #1e0838;
+}
+
+/* Iconos de redes */
+.iconos-contacto a {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.iconos-contacto a:hover {
+  color: #0d6efd;
+}
+
+/* Acordeón */
+.accordion-button {
+  font-weight: 600;
+}
+
+.accordion-body ul {
+  padding-left: 1.5rem;
+}
+
+/* Estilos para el modo oscuro */
+body.darkmode {
+  background: #181a1b !important;
+  color: #f1f1f1 !important;
+}
+body.darkmode .hero {
+  background-color: rgba(34, 34, 34, 0.85);
+}
+body.darkmode .card,
+body.darkmode .hero-content {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+}
+body.darkmode a {
+  color: #9e4cfc;
+}
+body.darkmode .accordion-button {
+  background: #23272b;
+  color: #f1f1f1;
+}
+body.darkmode .accordion-button:not(.collapsed) {
+  background-color: #9e4cfc;
+  color: #fff;
+}
+body.darkmode .accordion-body {
+  background: #23272b;
+  color: #f1f1f1;
+}
+body.darkmode .iconos-contacto a {
+  color: #bdbdbd;
+}
+body.darkmode .btn-outline-light {
+  border-color: #f1f1f1;
+  color: #f1f1f1;
+}
+body.darkmode .btn-outline-dark {
+  border-color: #23272b;
+  color: #23272b;
+}
+body.darkmode .accordion-button::after {
+  filter: invert(1) brightness(1.5);
+}
+#toggle-darkmode.btn {
+  border-color: #bdbdbd !important;
+  color: #bdbdbd !important;
+  background: transparent !important;
+}
+#toggle-darkmode.btn i {
+  color: #bdbdbd !important;
+}
+#toggle-darkmode.btn:focus, #toggle-darkmode.btn:active {
+  box-shadow: 0 0 0 0.2rem rgba(189,189,189,0.25) !important;
+}
+
+.hero {
+  background-image: url('../img/imagen.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  position: relative;
+}
+.foto-perfil {
+  max-width: 250px;
+  border-radius: 10px;
+}
+.card {
+  margin-top: 20px;
+}
+.iconos-contacto a {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: #6c757d;
+}
+.hero-content {
+  background: rgba(34, 34, 34, 0.85); /* Fondo sólido, puedes cambiar el color */
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 16px;
+  display: inline-block;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  margin-top: 24px;
+}
